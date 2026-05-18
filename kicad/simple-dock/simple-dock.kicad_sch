@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "611ec8e2-0d16-4d96-a4bc-b28ea3447e62")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 40.64 36.83)
+		(size 40.64 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e0f4e94-0cd5-4a59-8973-ed03bdcaf729")
+		(property "Sheetname" "SOM_FPGA"
+			(at 40.64 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SOM_FPGA.kicad_sch"
+			(at 40.64 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simple-dock"
+				(path "/611ec8e2-0d16-4d96-a4bc-b28ea3447e62"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

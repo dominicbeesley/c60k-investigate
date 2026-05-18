@@ -1,3 +1,11 @@
 **/impl
 *.gprj.user
 *.sublime-*
+\#*
+
+kicad/**/*-backups/*
+
+*.bak
+
+kicad/**/*.lck
+
