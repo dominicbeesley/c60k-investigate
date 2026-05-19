@@ -5,9 +5,121 @@
 	(uuid "611ec8e2-0d16-4d96-a4bc-b28ea3447e62")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 86.36 67.31) (xy 92.71 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c7260a-8f7d-49d3-9bed-c368765ec43c")
+	)
+	(bus
+		(pts
+			(xy 86.36 24.13) (xy 92.71 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9de50f-b6ca-45c0-8d95-5055e5b7e451")
+	)
+	(bus
+		(pts
+			(xy 86.36 40.64) (xy 92.71 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a211e04-89ab-426c-b750-b4521dbfcf55")
+	)
+	(bus
+		(pts
+			(xy 86.36 53.34) (xy 92.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "960a2f9c-5d88-4c66-a51b-a2dc087fd542")
+	)
+	(bus
+		(pts
+			(xy 86.36 38.1) (xy 92.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f021268b-30c8-4ff7-9128-b747bffb2926")
+	)
 	(sheet
-		(at 40.64 36.83)
-		(size 40.64 58.42)
+		(at 63.5 33.02)
+		(size 22.86 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49ffed7e-fb21-4fae-9b91-ec8370cd4b3f")
+		(property "Sheetname" "jtag_debug"
+			(at 63.5 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag_debug.kicad_sch"
+			(at 63.5 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{DBUG}" bidirectional
+			(at 86.36 38.1 0)
+			(uuid "ebf20df0-d3e4-47b9-9d10-9933cbf03cfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{JTAG}" bidirectional
+			(at 86.36 40.64 0)
+			(uuid "55edb911-d412-4635-8d29-279c965017b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "simple-dock"
+				(path "/611ec8e2-0d16-4d96-a4bc-b28ea3447e62"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 20.32)
+		(size 40.64 73.66)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +134,7 @@
 		)
 		(uuid "7e0f4e94-0cd5-4a59-8973-ed03bdcaf729")
 		(property "Sheetname" "SOM_FPGA"
-			(at 40.64 36.1184 0)
+			(at 92.71 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +143,7 @@
 			)
 		)
 		(property "Sheetfile" "SOM_FPGA.kicad_sch"
-			(at 40.64 95.8346 0)
+			(at 92.71 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,10 +151,226 @@
 				(justify left top)
 			)
 		)
+		(pin "MODE{0 1 2}" input
+			(at 133.35 38.1 0)
+			(uuid "48d3ec40-3d21-4b64-993f-74ceb9d588ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{JTAG}" bidirectional
+			(at 92.71 40.64 180)
+			(uuid "196dbaee-3468-46c0-ad1f-6a1f45a8e33a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DBUG}" bidirectional
+			(at 92.71 38.1 180)
+			(uuid "f6b38267-ed7c-4bf7-adf4-07e5f94e4116")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SDIO}" bidirectional
+			(at 92.71 53.34 180)
+			(uuid "7fe5c48e-82b9-4d2c-910c-bc4f519d1c37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DVI}" bidirectional
+			(at 92.71 24.13 180)
+			(uuid "6139da97-3200-43e4-9cc6-9caa8926a2f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{I2S}" output
+			(at 92.71 67.31 180)
+			(uuid "0c85c288-be8d-4e0e-9c1e-f3aa7da92f42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "simple-dock"
 				(path "/611ec8e2-0d16-4d96-a4bc-b28ea3447e62"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 20.32)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "80ae79d7-3972-49d7-aaf9-46684e738275")
+		(property "Sheetname" "hdmi"
+			(at 63.5 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi.kicad_sch"
+			(at 63.5 28.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{DVI}" bidirectional
+			(at 86.36 24.13 0)
+			(uuid "8298dc1f-bdf9-4e12-b076-e570b846e981")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "simple-dock"
+				(path "/611ec8e2-0d16-4d96-a4bc-b28ea3447e62"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 48.26)
+		(size 22.86 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "916f8003-094f-48c2-aa9b-d03d278c01bd")
+		(property "Sheetname" "sdcard"
+			(at 63.5 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sdcard.kicad_sch"
+			(at 63.5 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{SDIO}" bidirectional
+			(at 86.36 53.34 0)
+			(uuid "5b248c46-3181-4c03-9068-d9d22fa8687d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "simple-dock"
+				(path "/611ec8e2-0d16-4d96-a4bc-b28ea3447e62"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 63.5)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a7f9f2f6-0593-4e48-8a0d-8c838b29bdfa")
+		(property "Sheetname" "audio"
+			(at 63.5 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 63.5 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{I2S}" input
+			(at 86.36 67.31 0)
+			(uuid "7e7fbb47-da8e-401a-9c0b-433d53ce3f34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "simple-dock"
+				(path "/611ec8e2-0d16-4d96-a4bc-b28ea3447e62"
+					(page "6")
 				)
 			)
 		)

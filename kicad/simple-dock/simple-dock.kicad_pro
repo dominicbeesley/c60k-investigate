@@ -617,6 +617,22 @@
     [
       "7e0f4e94-0cd5-4a59-8973-ed03bdcaf729",
       "SOM_FPGA"
+    ],
+    [
+      "49ffed7e-fb21-4fae-9b91-ec8370cd4b3f",
+      "jtag_debug"
+    ],
+    [
+      "80ae79d7-3972-49d7-aaf9-46684e738275",
+      "hdmi"
+    ],
+    [
+      "916f8003-094f-48c2-aa9b-d03d278c01bd",
+      "sdcard"
+    ],
+    [
+      "a7f9f2f6-0593-4e48-8a0d-8c838b29bdfa",
+      "audio"
     ]
   ],
   "text_variables": {}
