@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c21d2b5c-fccd-4f34-8afd-c2e994c7e080")
+	(uuid "26a9940c-6231-49f3-b725-b8b53c6083cd")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
@@ -842,7 +842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
 			(at 105.41 57.15 0)
 			(effects
 				(font

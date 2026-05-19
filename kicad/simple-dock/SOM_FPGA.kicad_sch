@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a2345f94-a31d-4d95-a645-f93ad48dbff3")
+	(uuid "75b7eb6c-fb2d-4d77-af62-da88a833c268")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x40_Odd_Even"
@@ -11087,7 +11087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Hirose_DF40:Hirose_DF40HC(3.0)-100DS-0.4V_2x50_P0.4mm"
 			(at 153.67 78.74 0)
 			(effects
 				(font
@@ -13667,7 +13667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Hirose_DF40:Hirose_DF40HC(3.0)-80DS-0.4V_2x40_P0.4mm"
 			(at 233.68 80.01 0)
 			(effects
 				(font
@@ -15918,7 +15918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Hirose_DF40:Hirose_DF40HC(3.0)-100DS-0.4V_2x50_P0.4mm"
 			(at 58.42 76.2 0)
 			(effects
 				(font

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "9c77b315-079d-41ac-9768-fd1726a892b5")
+	(uuid "b562d4f5-229e-4934-9cf3-1f24af587b77")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:HDMI_A"

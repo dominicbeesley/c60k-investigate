@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c67e4d41-1129-42f8-91c2-67f69c6a06cb")
+	(uuid "bc3a91cf-d6e7-4489-ac45-016077cef3fa")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM324A"
@@ -4144,7 +4144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 113.792 72.39 90)
 			(effects
 				(font
@@ -4290,7 +4290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.0552 41.91 0)
 			(effects
 				(font
@@ -4360,7 +4360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x4.5"
 			(at 116.5352 95.25 0)
 			(effects
 				(font
@@ -5231,7 +5231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
 			(at 96.52 81.28 0)
 			(effects
 				(font

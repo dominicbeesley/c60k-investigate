@@ -1,0 +1,300 @@
+(footprint "USB_C_Receptacle_HRO_TYPE-C-31-M-17_mask"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "USB Type-C receptacle for USB 2.0, 6 pin, https://omo-oss-file.thefastfile.com/portal-saas/new2023011311465142457/cms/file/134891b2-9b01-4104-89d3-96207243f692.pdf")
+	(tags "usb usb-c 2.0 pd")
+	(property "Reference" "J24"
+		(at 6.096 1.143 -90)
+		(layer "F.SilkS")
+		(uuid "7751e0d6-92d4-49b6-adec-ff96500d472a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_C_Receptacle_PowerOnly_6P"
+		(at 0 4.75 180)
+		(layer "F.Fab")
+		(uuid "0f658ca7-0cf8-4882-9876-9369a152d415")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-17"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2614600c-7661-4554-a236-c40bff0e42ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55a252b2-c881-45fa-ab1a-d2dbc83eb48e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a762734-05d6-4ebd-9fc9-f31515de07bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.58 -1.9)
+		(end -4.58 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a9dcb02-1b54-4e11-9dfe-c31e5254eeb3")
+	)
+	(fp_line
+		(start -4.58 2)
+		(end -4.58 3.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6115ad76-559e-4c79-9c46-af21a1555751")
+	)
+	(fp_line
+		(start -4.58 3.51)
+		(end 4.58 3.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "270c5e2f-e0bb-4c28-9486-4f3e7c63ae27")
+	)
+	(fp_line
+		(start 4.58 -1.9)
+		(end 4.58 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abda15bf-b009-4409-bed2-5643f3dcfd62")
+	)
+	(fp_line
+		(start 4.58 2)
+		(end 4.58 3.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f05d04d-c2b9-4f7e-8d3e-37d7cb8debf1")
+	)
+	(fp_line
+		(start -5.32 -4.48)
+		(end -5.32 3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59cd5f80-8865-417e-9ad8-9f0e4110a8c4")
+	)
+	(fp_line
+		(start -5.32 -4.48)
+		(end 5.32 -4.48)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c81963d-71dc-4233-8c52-54e6fe0a0a57")
+	)
+	(fp_line
+		(start -5.32 3.9)
+		(end 5.32 3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8815ec06-9bc0-4a78-a621-ae1a7bb67ea0")
+	)
+	(fp_line
+		(start 5.32 -4.48)
+		(end 5.32 3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f1a5b7a-1f4e-4832-8ef6-fe5a41e98afc")
+	)
+	(fp_line
+		(start -4.47 -3.4)
+		(end -4.47 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "192fd8fa-0081-4400-9dcf-0beab932f011")
+	)
+	(fp_line
+		(start -4.47 -3.4)
+		(end 4.47 -3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29cacca1-e353-44a8-951a-f24d065bbf18")
+	)
+	(fp_line
+		(start -4.47 3.4)
+		(end 4.47 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e840cfad-4e89-4e87-a924-9330cca9c77e")
+	)
+	(fp_line
+		(start 4.47 -3.4)
+		(end 4.47 3.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e1cd607-c31e-4f4d-8968-7b598c9b767e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "35be3798-cb0e-4ebc-bd82-d41b77ed3b51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A5" smd roundrect
+		(at -0.5 -3.18)
+		(size 0.7 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b3cc01ab-8825-4fb1-8049-d07ba6237b22")
+	)
+	(pad "A9" smd roundrect
+		(at 1.52 -3.18)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "d550ea5e-5fea-4bb9-ac86-72034c071ab0")
+	)
+	(pad "A12" smd roundrect
+		(at 2.75 -3.18)
+		(size 0.9 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "0a12d57c-bc3c-476f-87ef-4edb7bd11e52")
+	)
+	(pad "B5" smd roundrect
+		(at 0.5 -3.18)
+		(size 0.7 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c3275d0c-da02-43ae-aef4-2557e767aba6")
+	)
+	(pad "B9" smd roundrect
+		(at -1.52 -3.18)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b74b1845-f597-46dd-8744-8a645dd5e12f")
+	)
+	(pad "B12" smd roundrect
+		(at -2.75 -3.18)
+		(size 0.9 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9a7b18ac-0ca8-4c03-9d92-aaa66f9a9a45")
+	)
+	(pad "S1" thru_hole oval
+		(at -4.32 -3)
+		(size 1 1.7)
+		(drill oval 0.5 1.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1ab30aa-c0aa-4e09-b1c0-f115f19a7c93")
+	)
+	(pad "S1" thru_hole oval
+		(at -4.32 0.8)
+		(size 1 1.7)
+		(drill oval 0.5 1.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff853ae9-192c-4a1f-85d4-f45bea30f577")
+	)
+	(pad "S1" thru_hole oval
+		(at 4.32 -3)
+		(size 1 1.7)
+		(drill oval 0.5 1.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "31a16b45-8926-4afa-aa9c-013b033f0a12")
+	)
+	(pad "S1" thru_hole oval
+		(at 4.32 0.8)
+		(size 1 1.7)
+		(drill oval 0.5 1.2)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d1587e9b-f9d2-465b-9443-07c3afafee91")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-17.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

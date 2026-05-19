@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "5490a19d-7a88-402f-a57c-45950c5c1334")
+	(uuid "7c24864b-1b2c-4740-b74b-36dab4507b7b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det2"
@@ -2220,7 +2220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mod:hirose_micro_sd_card_socket"
 			(at 196.85 58.42 0)
 			(effects
 				(font
