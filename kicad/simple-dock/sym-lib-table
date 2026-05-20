@@ -1,4 +1,10 @@
 (sym_lib_table
   (version 7)
   (lib (name "simple-dock-library")(type "KiCad")(uri "${KIPRJMOD}/simple-dock-library.kicad_sym")(options "")(descr ""))
+  (lib (name "rclamp")(type "KiCad")(uri "${KIPRJMOD}/lib/rclamp.kicad_sym")(options "")(descr ""))
+  (lib (name "PT8211_i2s_dac")(type "KiCad")(uri "${KIPRJMOD}/lib/PT8211_i2s_dac.kicad_sym")(options "")(descr ""))
+  (lib (name "extra_power")(type "KiCad")(uri "${KIPRJMOD}/lib/extra_power.kicad_sym")(options "")(descr ""))
+  (lib (name "memory")(type "KiCad")(uri "${KIPRJMOD}/lib/memory.kicad_sym")(options "")(descr ""))
+  (lib (name "74lsxx_full")(type "KiCad")(uri "${KIPRJMOD}/lib/74lsxx_full.kicad_sym")(options "")(descr ""))
+  (lib (name "24AA64-I_OT")(type "KiCad")(uri "${KIPRJMOD}/lib/24AA64-I_OT.kicad_sym")(options "")(descr ""))
 )

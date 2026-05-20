@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(bus
 		(pts
+			(xy 86.36 80.01) (xy 92.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad0960e-dc16-45b8-9b95-abcb9e2b6bd8")
+	)
+	(bus
+		(pts
 			(xy 86.36 67.31) (xy 92.71 67.31)
 		)
 		(stroke
@@ -211,6 +221,16 @@
 				(justify left)
 			)
 		)
+		(pin "{SDRAM}" bidirectional
+			(at 92.71 80.01 180)
+			(uuid "9c21e122-2119-41dc-b0fb-f3678a0c689f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "simple-dock"
 				(path "/611ec8e2-0d16-4d96-a4bc-b28ea3447e62"
@@ -371,6 +391,58 @@
 			(project "simple-dock"
 				(path "/611ec8e2-0d16-4d96-a4bc-b28ea3447e62"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 76.2)
+		(size 22.86 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3c3b467-54c0-4783-b0b7-24f71373353a")
+		(property "Sheetname" "sdram"
+			(at 63.5 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sdram.kicad_sch"
+			(at 63.5 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{SDRAM}" bidirectional
+			(at 86.36 80.01 0)
+			(uuid "5be646e9-5b34-4ca9-9a52-2154d8fbee23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "simple-dock"
+				(path "/611ec8e2-0d16-4d96-a4bc-b28ea3447e62"
+					(page "7")
 				)
 			)
 		)

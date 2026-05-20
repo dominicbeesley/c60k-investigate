@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "7c24864b-1b2c-4740-b74b-36dab4507b7b")
+	(uuid "1e3af507-8d40-4b1a-859a-cfd7a59aa9ce")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det2"
