@@ -129,7 +129,7 @@
 	)
 	(sheet
 		(at 92.71 20.32)
-		(size 40.64 73.66)
+		(size 40.64 86.36)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -153,7 +153,7 @@
 			)
 		)
 		(property "Sheetfile" "SOM_FPGA.kicad_sch"
-			(at 92.71 94.5646 0)
+			(at 92.71 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -224,6 +224,26 @@
 		(pin "{SDRAM}" bidirectional
 			(at 92.71 80.01 180)
 			(uuid "9c21e122-2119-41dc-b0fb-f3678a0c689f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{USBA1}" bidirectional
+			(at 92.71 88.9 180)
+			(uuid "82ccf6e0-e7d2-42ae-b2d5-ca80d8612d29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{USBA2}" bidirectional
+			(at 92.71 91.44 180)
+			(uuid "dec390e6-89f7-4e01-97fa-e4c64aa4f215")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -339,6 +359,48 @@
 			(project "simple-dock"
 				(path "/611ec8e2-0d16-4d96-a4bc-b28ea3447e62"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 87.63)
+		(size 22.86 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d32cd09-14e9-4649-bdba-26c195d77bf7")
+		(property "Sheetname" "USB"
+			(at 63.5 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 63.5 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "simple-dock"
+				(path "/611ec8e2-0d16-4d96-a4bc-b28ea3447e62"
+					(page "8")
 				)
 			)
 		)
