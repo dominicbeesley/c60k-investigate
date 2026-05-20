@@ -7,4 +7,5 @@
   (lib (name "memory")(type "KiCad")(uri "${KIPRJMOD}/lib/memory.kicad_sym")(options "")(descr ""))
   (lib (name "74lsxx_full")(type "KiCad")(uri "${KIPRJMOD}/lib/74lsxx_full.kicad_sym")(options "")(descr ""))
   (lib (name "24AA64-I_OT")(type "KiCad")(uri "${KIPRJMOD}/lib/24AA64-I_OT.kicad_sym")(options "")(descr ""))
+  (lib (name "ch213k")(type "KiCad")(uri "${KIPRJMOD}/lib/ch213k.kicad_sym")(options "")(descr ""))
 )

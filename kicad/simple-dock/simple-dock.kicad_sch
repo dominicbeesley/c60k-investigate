@@ -27,6 +27,16 @@
 	)
 	(bus
 		(pts
+			(xy 86.36 88.9) (xy 92.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27317520-e9b4-44db-baec-499ad9376175")
+	)
+	(bus
+		(pts
 			(xy 86.36 24.13) (xy 92.71 24.13)
 		)
 		(stroke
@@ -34,6 +44,16 @@
 			(type default)
 		)
 		(uuid "2e9de50f-b6ca-45c0-8d95-5055e5b7e451")
+	)
+	(bus
+		(pts
+			(xy 86.36 91.44) (xy 92.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4b354b-a8ad-4ed0-bfb2-4e97397c9bc7")
 	)
 	(bus
 		(pts
@@ -395,6 +415,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{USBA1}" bidirectional
+			(at 86.36 88.9 0)
+			(uuid "2d66e97a-3d9c-4293-b7e7-f321872aecb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{USBA2}" bidirectional
+			(at 86.36 91.44 0)
+			(uuid "4e97d346-b7d3-46ff-8b21-76db826decf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
